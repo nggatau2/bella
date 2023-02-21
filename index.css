@@ -1,0 +1,34 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    color: #444;
+    background: #ffe7e3;
+    text-align: center;
+}
+.name{
+    padding-top: 25%;
+}
+.name span{
+    color: rgb(252, 61, 172);
+}
+a{
+    text-decoration: none;
+    margin: 40px;
+}
+#yes{
+    color: green;
+}
+#no{
+    color: red;
+}
+img{
+    height: 30px;
+    width: 30px;
+    animation: heart 4s linear infinite;
+}
+
+@keyframes heart{
+    0%{transform: scale(.7);}
+    50%{transform: scale(1.5)}
+    100%{transform: scale(.7)}
+}
